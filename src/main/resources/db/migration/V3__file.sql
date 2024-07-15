@@ -1,0 +1,9 @@
+ALTER TABLE file
+    ADD token VARCHAR(255);
+
+ALTER TABLE file
+    ALTER COLUMN token SET NOT NULL;
+
+ALTER TABLE file
+DROP
+COLUMN data;
