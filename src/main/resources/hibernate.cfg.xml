@@ -7,7 +7,6 @@
         <property name="hibernate.connection.username">ilham</property>
         <property name="hibernate.connection.password">mysecretpassword</property>
         <property name="spring.jpa.hibernate.ddl-auto">update</property>
-
         <mapping class="api.entities.File"/>
         <mapping class="api.entities.AppUser"/>
         <mapping class="api.entities.Post"/>
