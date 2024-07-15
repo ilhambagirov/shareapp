@@ -36,6 +36,3 @@ out/
 ### VS Code ###
 .vscode/
 
-src/main/resources/application.properties
-src/main/resources/springapp1.json
-src/main/resources/hibernate.cfg.xml
