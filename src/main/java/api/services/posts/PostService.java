@@ -21,6 +21,7 @@ public class PostService extends BaseManager implements IPostService {
     private final IFileService _fileService;
     private final IPostMapper _postMapper;
     private final IMsgQueue _msgQueue;
+    private final Executor _asyncExecutor;
 
     public PostService(PostRepository postRepository,
                        IFileService fileService,

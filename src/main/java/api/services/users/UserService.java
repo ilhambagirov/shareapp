@@ -47,6 +47,7 @@ public class UserService implements IUserService {
         AppUser user = new AppUser();
         user.setUsername(request.username);
         user.setPassword(_passwordEncoder.encode(request.password));
+        user.setEmail(request.email);
 
         return CompletableFuture.runAsync(() -> {
             _userRepository.save(user);
